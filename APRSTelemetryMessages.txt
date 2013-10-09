@@ -1,0 +1,15 @@
+Send the following messages to the tracker callsign.
+In Xastir skip the ":"
+
+:PARM.Batt,GPSpwr,Alt,TXpwr,ADC3,NA,NA,NA,NA,NA,NA,NA,ISS
+:UNIT.V,V,feet,V,V,NA,NA,NA,NA,NA,NA,NA,visible
+:EQNS.0,0.05195,0,0,0.01289,0,0,1000,0,0,0.01289,0,0,0.01289,0
+:BITS.11111111,Pecan High Altitude Balloon Telemetry
+
+
+For Argentdata OT+
+
+:PARM.InternalTemp,Batt,ExternalTemp,Pressure,Unused,NA,NA,NA,NA,NA,NA,NA,NA
+:UNIT.degC,V,degC,kPa,NA,NA,NA,NA,NA,NA,NA,NA,NA
+:EQNS.0,1.9608,-273,0,0.07225,0,0,1.9608,-273,0,0.427,10.56,0,1,0
+:BITS.11111111,OTplus Telemetry
